@@ -28,5 +28,6 @@ func getDisplayBrightness() -> Float {
 
 print("maximumExtendedDynamicRangeColorComponentValue: ", NSScreen.main?.maximumExtendedDynamicRangeColorComponentValue)
 print("maximumPotentialExtendedDynamicRangeColorComponentValue: ", NSScreen.main?.maximumPotentialExtendedDynamicRangeColorComponentValue)
+print("maximumReferenceExtendedDynamicRangeColorComponentValue: ", NSScreen.main?.maximumReferenceExtendedDynamicRangeColorComponentValue)
 print("kIODisplayBrightnessKey: ", getDisplayBrightness())
 
